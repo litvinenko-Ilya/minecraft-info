@@ -11,7 +11,7 @@ class DBManager:
     def __init__(self, db_name):
         self.db_name = db_name
 
-bot = TeleBot("8179173631:AAEEw5Y3E2QbxC6ruyj21BrnsRAoXWW_PBk")
+bot = TeleBot("")
 
 
 @bot.message_handler(commands=['start'])
